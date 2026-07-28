@@ -21,7 +21,7 @@ about:
       href: resume.qmd
 ---
 
-I use data to tell stories and solve problems by building data pipelines that turn messy data into decisions people can act on.
+I use data to tell stories and solve problems -- by building pipelines that turn messy data into decisions people can act on.
 Right now I am finishing my M.S. in Data Science at **Willamette University**,
 where my capstone maps grant and scholarship funding against Oregon needs (capstone.qmd) for
 The Ford Family Foundation.
@@ -50,8 +50,8 @@ Quarto · Git · PowerBI · Jira
 
 ::: {.g-col-12 .g-col-md-4}
 ### 📍 Based in
-Salem, OR
-Open to remote / relocation
+Ibiza, Spain |
+Open to remote
 :::
 
 :::

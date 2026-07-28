@@ -18,23 +18,23 @@ web summary below is what recruiters skim; the PDF is what they download.
 ## Education
 
 **M.S. Data Science** — Willamette University, Salem, OR *(2026)*
-**B.S. \[Your Major\]** — \[Your University\], \[City\] *(\[year\])*
+**B.S. Data Science, Minor Economics** — Willamette University, Salem, OR 
 
 ## Skills
 
 | Area | Tools |
 |------|-------|
 | **Languages** | R, Python, SQL |
-| **Data & ML** | \[tidyverse / pandas, scikit-learn, ...\] |
-| **Workflow** | Git, Quarto, \[Docker, cloud, ...\] |
-| **Communication** | Technical writing, data visualization |
+| **Data & ML** | tidyverse, pandas, scikit-learn, pytorch |
+| **Workflow** | Git, Quarto, Docker, Jira |
+| **Communication** | Technical writing, data visualization, presenting |
 
 ## Experience
 
-**\[Job Title\]** — \[Organization\], \[Location\] *(\[dates\])*
+**Data Strategy & Analytics Intern** — Salem-Keizer Public Schools, Salem, OR *June-August 2026*
 
-- Accomplishment framed as impact, not a task description.
-- Another accomplishment with a number in it if you have one.
+- Directly shaped a new teacher-facing data platform's rollout toward better student outcomes by analyzing usage patterns and thematically coding qualitative survey feedback in R, producing reports that identified key features to add and data inconsistencies to fix
+- Modernized how the district stores and trusts its data by helping build a 4-database vault architecture and onboarding new data sources through SQL-based ETL processes, replacing an old system to ensure integrity of historical records and connection speed
 
 ## Projects
 
