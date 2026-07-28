@@ -38,9 +38,6 @@ web summary below is what recruiters skim; the PDF is what they download.
 
 ## Projects
 
-**\[Capstone Title\]** — see the [Capstone page](capstone.qmd) for the full story.
+**Bridging Data, Place, and Purpose: A Grantmaking Equity Analysis for TFFF** — see the [Capstone page](capstone.qmd) for the full story.
 
-- One line on the problem and your role.
-
-*Placeholders in brackets are fine while you build. Replace them with real,
-defensible entries as they materialize — sparse and true beats full and shaky.*
+- I built a centralized data pipeline that enables equitable decision-making and data accessibility for The Ford Family Foundation. This project connects community needs, geographic barriers, and demographics across rural Oregon to the Foundation's history of grant and scholarship funding to guide the next strategic plan.
