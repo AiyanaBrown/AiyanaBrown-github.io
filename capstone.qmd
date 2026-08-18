@@ -46,7 +46,7 @@ Evaluation: Implemented duplicate, missingness, distribution, and outlier checks
 
 The Foundation’s giving under the 2021-2025 strategic plan matches community need, and grants demonstrated significant internal alignment to strategic priorities.
 
-![Replace with your key result or system diagram.](projects/capstone/graphs.png){fig-alt="Total Funding vs County Need" width="90%"}
+!(projects/capstone/graphs.png){fig-alt="Total Funding vs County Need" width="90%"}
 
 Total Given:  $176M | 2,700+ Grants  | 1,400+ Scholarships
 Highest Funded Impact Areas and Strategic Priorities: 1. Community (rural community building), 2. Education (supports and pathways, early childhood education), 3. Family (child abuse prevention, parental supports)
@@ -71,4 +71,4 @@ Data from TFFF is governed by a DUA signed June 2026, which limits the sharing o
 ## Dig deeper
 
 - 📦 **Code & pipeline:** [github.com/AiyanaBrown/MSDS-Capstone-Project](https://github.com/AiyanaBrown/MSDS-Capstone-Project)
-- 📊 **Slides / poster:** [https://docs.google.com/presentation/d/1YSs5F8pBrJ2U9fv9zxfIs_6PIXakb0UqoZvmVC7jATI/edit?usp=sharing]
+- 📊 **Slides / poster:** [Poster Google Slide](https://docs.google.com/presentation/d/1YSs5F8pBrJ2U9fv9zxfIs_6PIXakb0UqoZvmVC7jATI/edit?usp=sharing)
