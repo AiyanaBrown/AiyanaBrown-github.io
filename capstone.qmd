@@ -44,9 +44,9 @@ Evaluation: Implemented duplicate, missingness, distribution, and outlier checks
 
 The Foundation’s giving under the 2021-2025 strategic plan matches community need, and grants demonstrated significant internal alignment to strategic priorities.
 
-!(projects/capstone/graphs.png){fig-alt="Total Funding vs County Need" width="90%"}
+!["Key Finding"](projects/capstone/graphs.png){fig-alt="Total Funding vs County Need" width="90%"}
 
-**Total Given:**  $176M | 2,700+ Grants  | 1,400+ Scholarships
+Total Given: $176M | 2,700+ Grants | 1,400+ Scholarships
 
 Highest Funded Impact Areas and Strategic Priorities: 1. Community (rural community building), 2. Education (supports and pathways, early childhood education), 3. Family (child abuse prevention, parental supports)
 
