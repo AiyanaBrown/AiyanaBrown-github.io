@@ -51,6 +51,9 @@ The Foundation’s giving under the 2021-2025 strategic plan matches community n
 Total Given:  $176M | 2,700+ Grants  | 1,400+ Scholarships
 Highest Funded Impact Areas and Strategic Priorities: 1. Community (rural community building), 2. Education (supports and pathways, early childhood education), 3. Family (child abuse prevention, parental supports)
 
+## Reproducibility & Ethics
+
+Data from TFFF is governed by a DUA signed June 2026, which limits the sharing of confidential information. Results will not be reproducible without contacting the foundation for data. See Write-Up for full reproducibility instructions and data terms of use.
 
 ## The full write-up
 
