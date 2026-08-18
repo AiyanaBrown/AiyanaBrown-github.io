@@ -18,19 +18,29 @@ toc: true
 
 ## The question
 
-What problem were you solving, and why does it matter to a real stakeholder?
-Two or three sentences. No jargon a hiring manager would have to look up.
+Nonprofit organizations often hold community data across disconnected systems, and The Ford Family Foundation (TFFF) was no exception. Although The Ford Family Foundation (TFFF) invests millions annually into rural Oregon, it has lacked a reusable pipeline. This made it difficult to assess whether grant and scholarship dollars were reaching the communities most in need.
+
+To what extent did the Foundation’s grants and scholarships under the previous strategic plan align with the needs of rural Oregon communities, and where do geographic gaps suggest priorities for the next plan?
+
+Can better-integrated data infrastructure support more informed grantmaking going forward?
 
 ## The data
 
-Where the data came from, how much of it, and the one hard thing about it
-(missingness, joins across sources, scale, privacy). This is your data
-engineering story — the part the repo link backs up.
+The data came from The Ford Family Foundation under a signed data-use agreement: five years (2021–2025) of Oregon By The Numbers county indicators, roughly 2,700 grant records, and about 11,000 scholarship awards, spanning all 36 Oregon counties plus Siskiyou County, California. Data came in un-joined excel workbooks with multiple sheets. Grants had to be geocoded from a free-text "Geographic Focus" field or a ZIP-code fallback with typos and missing entries, then split proportionally across counties when a single award reached more than one. OBTN indicators were sifted for methodology changes and imputed in a 3-step function by county, year, and population size.
 
 ## The approach
 
-Your method at portfolio depth: shorter than your M4 write-up, longer than a
-tweet. What did you try, what did you keep, and why.
+Strategic Pillars: Thriving Communities |Strong Starts (family) | Bright Futures (education)
+
+- Compared actual funding given (2021-2025) against 2021 OBTN snapshot that informed original strategic plan. 
+- Built a composite Need Index by z-scoring OBTN indicators and averaging over equally-weighted strategic pillars. Compared shifts in 2021 and 2025 need indices across counties.
+- Used Spearman correlation to measure funding-need alignment; tested separately for grants, scholarships, and total dollars (chose method due to data skew and outliers).
+- Identified funding drivers using LASSO variable selection: LOOCV  validated by 1,000-resample bootstrap with 70% selection threshold (multiple methods due to small sample n=36).
+- Modeled strength/direction with Quasi-Poisson and Gamma GLMs for data distribution fit (continuous, positive, right-skewed).
+- Built an interactive dashboard so TFFF can explore grant, scholarship, and need data by county going forward.
+
+Evaluation: Implemented duplicate, missingness, distribution, and outlier checks. Validated high funding in Douglas County. Re-ran analysis without outlier grants to confirm results held.
+
 
 ## Findings
 
@@ -43,16 +53,6 @@ full and shaky.
 
 ## The full write-up
 
-Pick the option that matches where your write-up lives, keep one, delete the rest.
-
-::: {.panel-tabset}
-
-### A · Native Quarto
-
-If your write-up is a `.qmd`, copy it into `projects/capstone/index.qmd` and
-link it, or fold its sections directly into this page. Set `eval: false` (or
-rely on `freeze`) on any chunk that needs data the public repo does not contain.
-
 ### B · Embedded PDF
 
 ```markdown
@@ -62,18 +62,9 @@ rely on `freeze`) on any chunk that needs data the public repo does not contain.
   style="border: 1px solid #ddd;"></iframe>
 ```
 
-### C · Published Google Doc
-
-```markdown
-[Read the full write-up](https://docs.google.com/document/d/e/XXXX/pub){.btn .btn-primary}
-
-<iframe src="https://docs.google.com/document/d/e/XXXX/pub?embedded=true"
-  width="100%" height="800px" style="border: 1px solid #ddd;"></iframe>
-```
-
 :::
 
 ## Dig deeper
 
-- 📦 **Code & pipeline:** [your-capstone-repo](https://github.com/your_github_username/your-capstone-repo)
-- 📊 **Slides / poster:** \[link if you have one\]
+- 📦 **Code & pipeline:** [github.com/AiyanaBrown/MSDS-Capstone-Project](https://github.com/AiyanaBrown/MSDS-Capstone-Project)
+- 📊 **Slides / poster:** [https://docs.google.com/presentation/d/1YSs5F8pBrJ2U9fv9zxfIs_6PIXakb0UqoZvmVC7jATI/edit?usp=sharing]
