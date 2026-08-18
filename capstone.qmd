@@ -44,16 +44,17 @@ Evaluation: Implemented duplicate, missingness, distribution, and outlier checks
 
 ## Findings
 
-Lead with your best figure or your architecture diagram.
+The Foundation’s giving under the 2021-2025 strategic plan matches community need, and grants demonstrated significant internal alignment to strategic priorities.
 
-![Replace with your key result or system diagram.](projects/capstone/featured.svg){fig-alt="Placeholder capstone figure" width="90%"}
+![Replace with your key result or system diagram.](projects/capstone/graphs.png){fig-alt="Total Funding vs County Need" width="90%"}
 
-State the finding in plain language, then the caveat. Sparse and true beats
-full and shaky.
+Total Given:  $176M | 2,700+ Grants  | 1,400+ Scholarships
+Highest Funded Impact Areas and Strategic Priorities: 1. Community (rural community building), 2. Education (supports and pathways, early childhood education), 3. Family (child abuse prevention, parental supports)
+
 
 ## The full write-up
 
-### B · Embedded PDF
+### B · Embedded PDFs
 
 ```markdown
 [Download the write-up (PDF)](projects/capstone/writeup.pdf){.btn .btn-primary}
