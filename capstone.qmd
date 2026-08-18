@@ -59,12 +59,19 @@ Data from TFFF is governed by a DUA signed June 2026, which limits the sharing o
 
 ### B · Embedded PDFs
 
-```markdown
+<!-- ```markdown
 [Download the write-up (PDF)](projects/capstone/writeup.pdf){.btn .btn-primary}
 
 <iframe src="projects/capstone/writeup.pdf" width="100%" height="800px"
   style="border: 1px solid #ddd;"></iframe>
-```
+``` -->
+<a href="writeup.pdf" class="btn btn-primary" target="_blank" download>Download the write-up (PDF)</a>
+
+<div style="margin-top: 15px;">
+  <object data="writeup.pdf" type="application/pdf" width="100%" height="800px">
+    <p>Your browser does not support embedding PDFs. You can <a href="writeup.pdf">click here to download the PDF</a> instead.</p>
+  </object>
+</div>
 
 ## Dig deeper
 
