@@ -66,8 +66,6 @@ Data from TFFF is governed by a DUA signed June 2026, which limits the sharing o
   style="border: 1px solid #ddd;"></iframe>
 ```
 
-:::
-
 ## Dig deeper
 
 - 📦 **Code & pipeline:** [github.com/AiyanaBrown/MSDS-Capstone-Project](https://github.com/AiyanaBrown/MSDS-Capstone-Project)
